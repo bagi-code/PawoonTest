@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pawoon Test</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_checklist">Checklist</string>
+    <string name="label_to_do_list">To Do List</string>
+</resources>
