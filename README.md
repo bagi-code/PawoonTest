@@ -16,11 +16,13 @@ Nice to have:
 - [x] Use Material Design
 
 ## Preview Testing - Basic Pemrograman
+check video in folder asset for the best preview
 <p align="left">
   <img src="asset/testing.gif" width="544" alt="behaviour">
 </p>
 
 ## Preview Behaviour - Android Pemrograman
+check video in folder asset for the best preview
 <p align="left">
   <img src="asset/behaviour.gif" width="172" alt="behaviour">
 </p>
