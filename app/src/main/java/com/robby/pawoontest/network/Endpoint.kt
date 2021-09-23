@@ -5,8 +5,6 @@ import io.reactivex.Observable
 import retrofit2.http.GET
 
 interface Endpoint {
-
     @GET("todos")
     fun todoList() : Observable<ArrayList<TodoResponse>>
-
 }

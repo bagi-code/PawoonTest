@@ -4,17 +4,19 @@ import org.junit.Assert.assertEquals
 import org.junit.Test
 
 /**
- * Example local unit test, which will execute on the development machine (host).
- *
- * See [testing documentation](http://d.android.com/tools/testing).
+ * Menjawab pertanyaan Basic pemrograman
+ * 1. Create a function to rotate the array A to the right by K steps.
+ * 2. Create a function to rotate the matrix (2D array) M clockwise by 90 degrees.
  */
 class ExampleUnitTest {
 
     @Test
     fun runningTest() {
+        // soal 1
         assertEquals(mutableListOf<Int>(4, 5, 1, 2, 3), fristQuestion(2, arrayOf(1, 2, 3, 4, 5)))
         assertEquals(mutableListOf<Int>(20, 11, 12, 13, 14, 15, 16, 17, 18, 19), fristQuestion(1001, arrayOf(11, 12, 13, 14, 15, 16, 17, 18, 19, 20)))
 
+        // soal 2
         assertEquals(arrayOf( intArrayOf(3, 1), intArrayOf(4, 2)), secondQuestion(arrayOf(intArrayOf(1, 2), intArrayOf(3, 4)), 2))
         assertEquals(arrayOf( intArrayOf(23,19,15,11), intArrayOf(24,20,16,12), intArrayOf(25,21,17,13), intArrayOf(26,22,18,14)),
             secondQuestion(arrayOf(intArrayOf(11,12,13,14), intArrayOf(15,16,17,18), intArrayOf(19,20,21, 22), intArrayOf(23,24,25,26)),

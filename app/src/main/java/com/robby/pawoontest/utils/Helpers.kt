@@ -5,7 +5,6 @@ import java.net.ConnectException
 import java.net.UnknownHostException
 
 object Helpers {
-
     fun Throwable.getErrorBodyMessage(): String {
         return if (this is HttpException) {
             val errorCode = this.code()
@@ -27,7 +26,6 @@ object Helpers {
                 ""
             else
                 this.message!!
-
         }
     }
 
